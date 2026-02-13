@@ -108,7 +108,7 @@ body{
   font-size:22px;
   pointer-events:none;
   animation:burst 0.8s ease-out forwards,
-             fall 4s ease-in forwards;
+             fallDown 4s ease-in forwards;
 }
 
 @keyframes burst{
@@ -122,7 +122,7 @@ body{
   }
 }
 
-@keyframes fall{
+@keyframes fallDown{
   0%{ opacity:1; }
   100%{
     transform:translate(var(--x2), 120vh);
